@@ -1,0 +1,432 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media only screen {
+	.container {
+		margin: 0 auto;
+		max-width: 1080px;
+		padding: 0 10px;
+	}
+}
+
+.atsign {
+	color: #138759;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 90%; 
+	padding: 0 10px;
+}
+
+.header {
+  background: url(atdesk.jpg) no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+.header .container {
+	position: relative;
+	top: 150px;
+	text-align: center; 
+}
+
+.header h1 {
+	color: #fff;
+	line-height: 100px; 
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 80px;
+	text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: -30px;
+	text-transform: uppercase; 
+}
+
+.join {
+	margin: auto;
+	width: 300px;
+	color: #fff;
+	background: #138759;
+	padding: 10px 20px;
+	text-decoration: none; 
+	transition: background .5s; 
+	border-radius: 4px;
+}
+
+.join:hover {
+	background: #13BB59;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+/*navigation*/
+
+.nav { 
+	background: #000;
+	height: 70px; 
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+  	opacity: 0.8;
+
+}
+.nav a, .join a {
+	display: block;
+	color: #ffffff;
+}
+
+.nav a:hover, .join a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav ul {
+	height: 70px;
+	display: table-row;
+	list-style: none;
+	margin: 0 auto; 
+	padding: 0;
+}
+
+.nav ul li {  
+	color: #fff;
+	display: table-cell; 
+	line-height: 70px; 
+	width: 10%;
+	text-align: center;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s; 
+}
+
+.nav ul li:hover {
+	background: #138759;
+	cursor: pointer; 
+	transition: background .5s;
+}
+
+
+/*end navigation*/
+
+.main .container {
+	margin: 60px auto;
+	padding-bottom: 30px;
+}
+
+.main img {
+	margin: 50px 80px 50px 0;
+}
+
+.main h2 {
+	font-size: 40px;
+}
+
+.main a {
+	color: #138759;
+	text-decoration: none;
+	transition: color .5s; 
+
+}
+
+.main a:hover{
+	color: #13BB59;
+	text-decoration: none;
+	transition: color .5s; 
+}
+
+.main li {
+	padding-bottom: 2px;
+}
+
+.images {
+	padding: 20px;
+	text-align: center;
+}
+
+.images > div {
+	display: inline-block;
+}
+
+.images p {
+	margin: 0;
+}
+
+.hrfade { 
+    margin: 15px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.jumbotron {
+	background: url(code.jpg) center center;
+	background-size: cover;
+	height: 500px; 
+	text-align: right;
+}
+
+.jumbotron2 {
+	background: url(usf.jpg) bottom center;
+	background-size: 100%;
+	height: 500px; 
+	text-align: left;
+}
+
+.jumbotron a, .jumbotron2 a {
+	color: #138759;
+	text-decoration: none;
+	transition: color .5s; 
+}
+
+.jumbotron a:hover, .jumbotron2 a:hover{
+	color: #fff;
+	transition: color .5s; 
+}
+
+.jumbotron .container, .jumbotron2 .container {
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron ul li, .jumbotron2 ul li {
+	list-style-position: inside;
+	color: #fff;
+}
+
+.jumbotron2 h2, .jumbotron h2{
+	font-size:40px;
+	color: #fff;
+	padding-top: 325px;
+}
+
+
+.jumbotron p, .jumbotron2 p {
+	color: #fff; 
+}
+
+.jumbotron .join, .jumbotron2 .join {
+	margin: 10px 0 0;
+	float: right; 
+}
+
+.row img{
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.footer { 
+	margin-top: -40px;
+	background: #000;
+	height: 200px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222222), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #222222 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #222222 0%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #222222 0%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #222222 0%,#000000 100%); /* W3C */
+	background: -moz-linear-gradient(top, #222222 0%, #000000 100%); /* FF3.6+ */
+}
+
+.footer p { 
+	color: #fff;
+	font-size: 20px;  
+	height: 40px; 
+	line-height: 80px;
+	margin-bottom: 10px;
+	bottom: 0px;  
+	
+}
+
+.footer a { 
+	float: left;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px; 
+	list-style: none;
+	margin-right: 10px;
+	margin-top: 10px;
+
+	transition: background .5s; 
+}
+
+.footer a:hover {
+	background: #138759;
+	text-decoration: none;
+	transition: background .5s;
+}
+
+#logo {
+	position: relative;
+	float: left;
+	height: 180px;
+	padding-top: 15px;
+	padding-right: 100px;
+}
+
+#btt {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+
+/*resources*/
+
+@media only screen and (max-width: 480px){
+	.resources {
+		margin-bottom: 200px;
+		height: 1000px;
+		text-align: right;
+		list-style: square;
+		list-style-position: inside;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.resources {
+		margin-bottom: 200px;
+		height: 500px;
+		text-align: right;
+		list-style: square;
+		list-style-position: inside;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.resources {
+		margin-bottom: 200px;
+		height: 500px;
+		text-align: right;
+		list-style: square;
+		list-style-position: inside;
+	}
+}
+
+
+.resources {
+height: 350px;
+text-align: right;
+list-style: square;
+list-style-position: inside;
+margin-bottom: 100px;
+}
+
+
+.reslist, .reslist a {
+	color: #000;
+	text-align: right;
+}
+
+.reslist lh {
+	text-decoration: underline;
+}
+
+.reslist li {
+	display: block;
+
+}
+
+.reslist ul, .reslist p {
+	text-align: left;
+	float: right;
+	width: 335px;
+}
+
+
+
+@media (max-width: 1399px) {
+	#rightlist {
+		float: right;
+	}
+	#leftlist {
+		float: left;
+	}
+}
+
+/*form div*/
+.form {
+	color: #fff;
+	position: relative;
+	display: none;
+	text-align: center;
+	height: 50%;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: -150px;
+	padding: 20px 20px 20px 20px;
+	z-index: 100000001;
+}
+
+.mask {
+	display: none;
+	position: fixed;
+	top: 0; left: 0;
+	background-color: #000;
+	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+	z-index: 100000000;
+}
+
+/*form*/
+input[type=submit] {
+	width: 200px;
+	color: #fff;
+	background: #138759;
+	padding: 10px 20px;
+	text-decoration: none; 
+	transition: background .2s; 
+	border-radius: 4px;
+	border: none;
+}
+
+input[type=submit]:hover {
+	background: #13BB59;
+	cursor: pointer; 
+	transition: background .2s;
+}
+
+textarea {
+	resize: none
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
